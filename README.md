@@ -35,8 +35,8 @@ Before running this application, make sure you have the following installed:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/chat-app.git
-cd chat-app
+git clone https://github.com/its-bismay/chatOne.git
+cd chatOne
 ```
 
 ### 2. Backend Setup
@@ -119,21 +119,9 @@ npm run dev
    ```
 2. Deploy the `dist` folder to platforms like Vercel, Netlify, or GitHub Pages
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Authors
 
-- **BIBHABASU** - *Initial work* - [YourGitHub](https://github.com/its-bismay)
+- **BISMAY** - *Initial work* - [its-bismay](https://github.com/its-bismay)
 
 ## 🙏 Acknowledgments
 
