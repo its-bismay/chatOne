@@ -11,7 +11,7 @@ const ChatContainer = ({ selectedUser, setSelectedUser }) => {
     }
   }, []);
   return selectedUser ? (
-    <div className="h-full overflow-scroll relative backdrop-blur-lg">
+    <div className="h-full overflow-hidden relative backdrop-blur-lg">
       {/* ----heading part------ */}
 
       <div className="flex items-center gap-3 py-3 mx-4 border-b border-stone-500">
@@ -31,7 +31,7 @@ const ChatContainer = ({ selectedUser, setSelectedUser }) => {
 
       {/* -----chat part------- */}
 
-      <div className="flex flex-col h-[calc(100%-120px)] overflow-y-screen p-3 pb-6">
+      <div className="flex flex-col h-[calc(100%-120px)] overflow-y-scroll p-3 pb-6">
         {messagesDummyData.map((msg, index) => (
           <div
             key={index}
